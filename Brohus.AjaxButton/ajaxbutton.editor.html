@@ -1,0 +1,9 @@
+﻿<div ng-controller="Brohus.AjaxButtonController">
+    <section>
+        <span class="btn brohus-button" ng-click="cyCallUrl()" ng-bind="buttonText"></span>
+        <div class="brohus-spinner" ng-show="loading">
+            <img src="/App_Plugins/Brohus.AjaxButton/images/loading.gif" alt="Loading gif" />
+        </div>
+    </section>
+    <span class="brohus-result-span" ng-bind="return"></span>
+</div>

@@ -1,0 +1,38 @@
+﻿{
+    propertyEditors: [
+        {
+            alias: "Brohus.AjaxButton",
+            name: "Ajax button",
+            editor: {
+                view: "~/App_Plugins/Brohus.AjaxButton/ajaxbutton.editor.html"
+            },
+
+            prevalues: {
+                fields: [
+                    {
+                        label : "Button text",
+                        description: "This is the description text that the button is having.",
+                        key: "buttonText",
+                        view: "textstring"
+                    },
+					{
+                        label : "Url",
+                        description: "This is the URL that will get called when the button is pressed.",
+                        key: "ajaxUrl",
+                        view: "textstring"
+                    },
+                
+                ]
+            
+            }
+        }
+    ],
+
+    javascript: [
+        "~/App_Plugins/Brohus.AjaxButton/ajaxbutton.controller.js"
+    ],
+	"css" : [
+		"~/App_Plugins/Brohus.AjaxButton/css/brohus-ajaxbutton.css"
+	]
+
+}

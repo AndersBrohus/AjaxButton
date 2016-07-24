@@ -1,0 +1,15 @@
+﻿.brohus-button {
+    display: inline-block;
+    float: left;
+}
+
+.brohus-spinner {
+    float: left;
+    width: 30px;
+    margin-left: 18px;
+}
+
+.brohus-result-span {
+    display: block;
+    margin-top: 14px;
+}
